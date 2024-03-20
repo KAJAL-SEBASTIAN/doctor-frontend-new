@@ -1,13 +1,8 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text&family=Hind+Madurai:wght@500&family=Indie+Flower&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@500&family=Mukta:wght@300&family=Noto+Serif&family=Orbitron&family=Prompt:ital@1&family=Qwigley&family=Suez+One&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+*{
+margin: 0px;
+padding: 0px;
+font-family: Noto Serif;
 }

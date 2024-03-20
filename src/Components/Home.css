@@ -1,0 +1,84 @@
+.banner{
+    width: 1340px;
+    height: 480px;
+    background-image: url('https://img.freepik.com/premium-photo/general-practitioner-doctor-talking-videoconference-with-female-patient_116407-19497.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1704412800&semt=ais');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    position: absolute;
+    border: 2px solid rgb(15, 15, 14);
+    top: 410px;
+    left: 2%;
+    box-shadow: 3px 4px 6px rgb(3, 3, 3);
+    width: 330px;
+    height: 100px;
+  color: black;
+  font-size:x-small;
+}
+.row{
+    display: flex;
+    flex-direction:row;
+ color: #d6f0ee;
+}
+.card{
+    margin-left: 40px;
+   
+}
+.cards{
+    margin-left: 130px;
+    color: rgb(108, 163, 163);
+}
+
+/* Home.css */
+
+
+.head {
+  color: rgb(9, 94, 97);
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  margin: 10px;
+  transition: transform 0.3s ease-in-out; /* Add smooth transition */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Enlarge the card on hover */
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-image {
+  border-radius: 10px;
+}
+
+.gallery-img {
+  margin: 0px;
+  transition: transform 0.3s ease-in-out; /* Add smooth transition */
+}
+
+.gallery-img:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+}
+
+.btn {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Add smooth transition */
+}
+
+.btn:hover {
+  background-color: rgb(76, 134, 136); /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+
